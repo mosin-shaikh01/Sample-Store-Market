@@ -21,7 +21,7 @@ if fl is not None:
     encoding="ISO-8859-1",
     )
 else:
-    os.chdir(r"C:\Users\admin\Desktop\Apps\Streamlit")
+    #os.chdir(r"C:\Users\admin\Desktop\Apps\Streamlit")
     df = pd.read_csv("Superstore.csv", 
     
     encoding="ISO-8859-1",
@@ -172,3 +172,4 @@ with st.expander("View Data"):
 csv = df.to_csv(index = False).encode('utf-8')
 
 st.download_button("Download Data", data = csv, file_name = "Data.csv", mime= "text/csv")
+
