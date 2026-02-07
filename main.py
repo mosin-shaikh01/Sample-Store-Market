@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-
 import plotly.figure_factory as ff
 import os
 import warnings
@@ -171,4 +170,5 @@ with st.expander("View Data"):
 #download Orginal Dataset
 
 csv = df.to_csv(index = False).encode('utf-8')
+
 st.download_button("Download Data", data = csv, file_name = "Data.csv", mime= "text/csv")
