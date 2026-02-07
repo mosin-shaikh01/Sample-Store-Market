@@ -3,4 +3,6 @@ pandas
 plotly.express 
 plotly.figure_factory 
 os
+plotly
+matplotlib
 warnings
