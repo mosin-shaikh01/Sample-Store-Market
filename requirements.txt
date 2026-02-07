@@ -2,12 +2,5 @@ streamlit
 pandas
 plotly
 matplotlib
-plotly.express 
-plotly.figure_factory 
 os
-
-
 warnings
-
-
-
