@@ -1,0 +1,6 @@
+streamlit 
+pandas 
+plotly.express 
+plotly.figure_factory 
+os
+warnings
